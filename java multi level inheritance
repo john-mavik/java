@@ -21,4 +21,13 @@ class C extends B
       System.out.println("Class C method Invoked");
       }
     }
+class John
+    {
+    public static void main(String args[])
+      {
+      C obj = new C();
+      obj.show();
+      obj.display();
+      obj.message();
+      }
     }
